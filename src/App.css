@@ -1,0 +1,91 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker');
+
+body {
+  background-color: #282c34;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Permanent Marker", Arial, sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  letter-spacing: 5px;
+}
+
+.game {
+  margin: 0 auto;
+  width: 450px;
+  height: 450px;
+  background-color: #15191f;
+  display: flex;
+  border-radius: 1%;
+  padding: 1px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 3px 1.5px;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.row >div {
+  margin: 0 1.5px;
+  width: 106.67px;
+  height: 106.67px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  font-size: 32pt;
+  font-weight: bold;
+}
+
+.two  {
+  background-color: cornflowerblue;
+}
+
+.four {
+  background-color: seagreen;
+}
+
+.eight {
+  background-color: salmon;
+}
+
+.sixteen {
+  background-color: goldenrod;
+}
+
+.thirty-two {
+  background-color: blue;
+}
+
+.sixty-four {
+  background-color: hotpink;
+}
+
+.one-two-eight {
+  background-color: firebrick;
+}
+
+.two-five-six {
+  background-color: mediumaquamarine;
+}
+
+.five-one-two {
+  background-color: tomato;
+}
+
+.one-o-two-four {
+  background-color: indigo;
+}
+
+.win {
+  background-color: black;
+}
+
